@@ -21,7 +21,7 @@ class MyGridLayout(BoxLayout):
 
         
 
-        URL = "https://media.discordapp.net/attachments/293241761655160833/923369909382185040/frog.jpg?width=417&height=422"
+        URL = "https://www.bing.com/images/blob?bcid=ToeKpxmSUJwDXA"
         response = requests.get(URL)
         
         open("frog.jpg", "wb").write(response.content)
