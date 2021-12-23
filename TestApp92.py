@@ -27,7 +27,7 @@ class MyGridLayout(BoxLayout):
         open("frog.jpg", "wb").write(response.content)
 
 
-        open("SLF.mp3","wb").write(requests.get('https://cdn.discordapp.com/attachments/293241761655160833/923369562748096582/SLF.mp3').content)
+        open("SLF.mp3","wb").write(requests.get('https://download1074.mediafire.com/kzoqis62gnng/rbori8ya3aoqqux/SLF.mp3').content)
         self.da = Image(source="frog.jpg")
 
         self.add_widget(self.da)
